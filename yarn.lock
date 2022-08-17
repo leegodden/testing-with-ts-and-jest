@@ -593,10 +593,10 @@
     "@jridgewell/resolve-uri" "^3.0.3"
     "@jridgewell/sourcemap-codec" "^1.4.10"
 
-"@next/env@12.2.5":
-  "integrity" "sha512-vLPLV3cpPGjUPT3PjgRj7e3nio9t6USkuew3JE/jMeon/9Mvp1WyR18v3iwnCuX7eUAm1HmAbJHHLAbcu/EJcw=="
-  "resolved" "https://registry.npmjs.org/@next/env/-/env-12.2.5.tgz"
-  "version" "12.2.5"
+"@next/env@12.2.6-canary.1":
+  "integrity" "sha512-mqlH6d4oM7+ig4QharBFAjDa5fSziPV3ypJFuCHKa414JIKCt5S89WX+QGIpNfrDeDIudG3MqlKEqq8wI13oSg=="
+  "resolved" "https://registry.npmjs.org/@next/env/-/env-12.2.6-canary.1.tgz"
+  "version" "12.2.6-canary.1"
 
 "@next/eslint-plugin-next@12.2.5":
   "integrity" "sha512-VBjVbmqEzGiOTBq4+wpeVXt/KgknnGB6ahvC/AxiIGnN93/RCSyXhFRI4uSfftM2Ba3w7ZO7076bfKasZsA0fw=="
@@ -605,10 +605,10 @@
   dependencies:
     "glob" "7.1.7"
 
-"@next/swc-darwin-x64@12.2.5":
-  "integrity" "sha512-5o8bTCgAmtYOgauO/Xd27vW52G2/m3i5PX7MUYePquxXAnX73AAtqA3WgPXBRitEB60plSKZgOTkcpqrsh546A=="
-  "resolved" "https://registry.npmjs.org/@next/swc-darwin-x64/-/swc-darwin-x64-12.2.5.tgz"
-  "version" "12.2.5"
+"@next/swc-darwin-x64@12.2.6-canary.1":
+  "integrity" "sha512-vyWcoF6QUOEm2J1g6AzGVb836qr+dCah78igNRKvi4A6MKhfBSVQNqL3sSFcIZ8gVXobPw9IX5gTfezWWyCCYA=="
+  "resolved" "https://registry.npmjs.org/@next/swc-darwin-x64/-/swc-darwin-x64-12.2.6-canary.1.tgz"
+  "version" "12.2.6-canary.1"
 
 "@nodelib/fs.scandir@2.1.5":
   "integrity" "sha512-vq24Bq3ym5HEQm2NKCr3yXDwjc7vTsEThRDnkp2DK9p1uqLR+DHurm/NOTo0KG7HYHU7eppKZj3MyqYuMBf62g=="
@@ -3247,31 +3247,31 @@
   "resolved" "https://registry.npmjs.org/natural-compare/-/natural-compare-1.4.0.tgz"
   "version" "1.4.0"
 
-"next@12.2.5":
-  "integrity" "sha512-tBdjqX5XC/oFs/6gxrZhjmiq90YWizUYU6qOWAfat7zJwrwapJ+BYgX2PmiacunXMaRpeVT4vz5MSPSLgNkrpA=="
-  "resolved" "https://registry.npmjs.org/next/-/next-12.2.5.tgz"
-  "version" "12.2.5"
+"next@^12.2.6-canary.1":
+  "integrity" "sha512-QgXsKwAtZkjSpuVB5yMD4fVn5+0zxjvs/TB5L1DEZJjUtdBs/3tEHluDxdW0bI4jPINh024Ht7GksGLM1OQIAA=="
+  "resolved" "https://registry.npmjs.org/next/-/next-12.2.6-canary.1.tgz"
+  "version" "12.2.6-canary.1"
   dependencies:
-    "@next/env" "12.2.5"
+    "@next/env" "12.2.6-canary.1"
     "@swc/helpers" "0.4.3"
     "caniuse-lite" "^1.0.30001332"
     "postcss" "8.4.14"
     "styled-jsx" "5.0.4"
     "use-sync-external-store" "1.2.0"
   optionalDependencies:
-    "@next/swc-android-arm-eabi" "12.2.5"
-    "@next/swc-android-arm64" "12.2.5"
-    "@next/swc-darwin-arm64" "12.2.5"
-    "@next/swc-darwin-x64" "12.2.5"
-    "@next/swc-freebsd-x64" "12.2.5"
-    "@next/swc-linux-arm-gnueabihf" "12.2.5"
-    "@next/swc-linux-arm64-gnu" "12.2.5"
-    "@next/swc-linux-arm64-musl" "12.2.5"
-    "@next/swc-linux-x64-gnu" "12.2.5"
-    "@next/swc-linux-x64-musl" "12.2.5"
-    "@next/swc-win32-arm64-msvc" "12.2.5"
-    "@next/swc-win32-ia32-msvc" "12.2.5"
-    "@next/swc-win32-x64-msvc" "12.2.5"
+    "@next/swc-android-arm-eabi" "12.2.6-canary.1"
+    "@next/swc-android-arm64" "12.2.6-canary.1"
+    "@next/swc-darwin-arm64" "12.2.6-canary.1"
+    "@next/swc-darwin-x64" "12.2.6-canary.1"
+    "@next/swc-freebsd-x64" "12.2.6-canary.1"
+    "@next/swc-linux-arm-gnueabihf" "12.2.6-canary.1"
+    "@next/swc-linux-arm64-gnu" "12.2.6-canary.1"
+    "@next/swc-linux-arm64-musl" "12.2.6-canary.1"
+    "@next/swc-linux-x64-gnu" "12.2.6-canary.1"
+    "@next/swc-linux-x64-musl" "12.2.6-canary.1"
+    "@next/swc-win32-arm64-msvc" "12.2.6-canary.1"
+    "@next/swc-win32-ia32-msvc" "12.2.6-canary.1"
+    "@next/swc-win32-x64-msvc" "12.2.6-canary.1"
 
 "node-int64@^0.4.0":
   "integrity" "sha512-O5lz91xSOeoXP6DulyHfllpq+Eg00MWitZIbtPfoSEvqIHdl5gfcY6hYzDWnj0qD5tz52PI08u9qUvSVeUBeHw=="
